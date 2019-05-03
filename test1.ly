@@ -47,9 +47,28 @@ melody = \relative c'' {
 
   \tuplet 3/2 { a b c }   \tuplet 3/2 { b c d } e2
 
-  
+  d16 cis c b ais a gis g fis f e dis d32 cis c b ais a gis g
 
+  r8 a32 g a b c b c d e f e f g 
 
+  a gis a b c b c cis d c b\glissando a,8
+
+  e'1^"Scale runs"
+
+  e'2\startTrillSpan
+  r16\stopTrillSpan
+
+  e16 e e g8 g
+
+  g16 fis f e dis d cis c b ais a gis g8\glissando a,8
+
+  r1
+
+  r4 a16 b c g'' r16 fis e fis d8\glissando a,8
+
+  r1
+
+  a16 b c d~ d4\glissando e'2
 
 }
 
