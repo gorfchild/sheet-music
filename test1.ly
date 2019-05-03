@@ -31,13 +31,12 @@ melody = \relative c'' {
   e1\startTrillSpan
   e1\stopTrillSpan
   
-  c16 c a8 c16 c a c b c a c b c a8
+  c,16 c a8 c16 c a c b c a c b c a8
 
   r16 b r16 gis r16 b r16 e r16 gis r16 b16  b8\glissando e,
 
-  a,16 b c d16 r16 e r16 f r16 g r16 a 
-  
-
+  a,16 b c d16 r16 e r16 f r16 g r16 a
+\tuplet 3/2 { b8 c d }
   e1\startTrillSpan
   e1\stopTrillSpan
 
