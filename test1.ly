@@ -1,6 +1,6 @@
 \version "2.18.2"
 \header {
-  title = "Tell Me to My Face - Flute"
+  title = "Tell Me to My Face - Flute Solo"
   composer = "Dan Fogelberg"
 }
 melody = \relative c''' {
