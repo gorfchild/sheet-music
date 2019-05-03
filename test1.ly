@@ -3,7 +3,7 @@
   title = "Tell Me to My Face - Flute"
   composer = "Dan Fogelberg"
 }
-melody = \relative c'' {
+melody = \relative c''' {
   \clef treble
   \key a \minor
   \time 4/4
