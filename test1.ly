@@ -26,10 +26,10 @@ melody = \relative c'' {
   d16 c8 
   a'\glissando a,,8.
 
-  f8 a c f a c4 f8~  f1
+  f16 a c f a c8 f16~  f2
 
-  e1\startTrillSpan
-  e1\stopTrillSpan
+  e2\startTrillSpan
+  e2\stopTrillSpan
   
   c,16 c a8 c16 c a c b c a c b c a8
 
@@ -37,8 +37,18 @@ melody = \relative c'' {
 
   a,16 b c d16 r16 e r16 f r16 g r16 a
 \tuplet 3/2 { b8 c d }
-  e1\startTrillSpan
-  e1\stopTrillSpan
+  e2\startTrillSpan
+  e2\stopTrillSpan
+
+
+  c16 b8 e e,16 e8  \tuplet 3/2 { e' d c } a4 
+
+  e'16 d c b c a b c a b c a b c a8
+
+  \tuplet 3/2 { a b c }   \tuplet 3/2 { b c d } e2
+
+  
+
 
 
 }
