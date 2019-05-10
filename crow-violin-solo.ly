@@ -28,7 +28,11 @@ melody = \relative c'' {
 
   c4 d8 a a b g a~   a4. a8 a2   a2~ a4. e8  d2.~ d8 c8
 
-  a2.~ a8 g8
+  a2.~ a8 g8~  g8 a8 d4  d16 e c4 d
+
+  < a e' >1  d1  a1   c'8 d d2.
+
+  g1~ g1~ g1~ g1        
 
 
  
