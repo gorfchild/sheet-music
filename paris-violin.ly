@@ -52,7 +52,7 @@ melody = \relative c'' {
   r2.  r2.  r2. r4
 
   \override TextSpanner.bound-details.left.text = "rit."
-  aes8\startTextSpan g8 f8 ees8   des2.  e2.\stopTextSpan   f2.\fermata  f'2.\fermata
+  aes8\startTextSpan g8 f8 ees8   des2.  e2.\stopTextSpan   f2.\fermata  f''2.\fermata
 
 }
 
