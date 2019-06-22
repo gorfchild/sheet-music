@@ -1,58 +1,75 @@
 \version "2.18.2"
 \header {
-  title = "Paris Nocturne - Violin"
+  title = "Heart Hotels - Violin"
   composer = "Dan Fogelberg"
 }
 melody = \relative c'' {
   \clef treble
-  \key f \minor
-  \time 3/4
+  \key c \major
+  \time 4/4
   \tempo 4 = 96 
   \set Score.tempoHideNote = ##t  
   \override Glissando.style = #'zigzag
 
   
   \compressFullBarRests
-  R1*12
-  f2.~f2.  e2.~e2.  c2.~c4 f,8 g8 aes4    aes2 bes4   bes4  bes8 aes8 g8 f8
-  ees'4 f4 r8 g8   g4 aes4 r8 bes8   bes4 aes4 g4   bes4 aes8 g8 f8 ees8 
-  des2 g4   e2  f4    f2.~f2.    
+  R1*4
+  R1*10
+  R1*10
 
-  r8 des,8^"pizz." f8 bes8 des8 r8
-  r8 c,8^"pizz." f8 aes8 c8 r8
-  r8 c,8^"pizz." ees8 g8 c8 r8
-  aes8^"pizz." f8 c'8 f,8 aes8 f8
+  g'2 r8 
+  g,16 c e g fis8~fis2 r8  
+  a,16 d fis a g8~g2 r8 
+  c,16 e g c a8~a1  
 
-  bes,8^"pizz." des8 f8 bes8 des8 r8
-  r8 c8^"pizz." aes8 f8 c8 r8
-  r8 c8^"pizz." e8 g8 bes8 c8 e4 r4 r4 
+  g2 r8 
+  g,16 c e g fis8~fis2 r8  
+  a,16 d fis a g8~g2 r8 
+  c,16 e g c a8~a2. r4
 
-  bes'2.:32  aes2.:32  g2.:32  f2.:32   bes2.:32  aes2.:32  g2. r1.
+  r1 r1 r1 r2. b4
+  a1 g1
+  fis1 f1 fis1 g2 e4 f4 
 
-  f2.~f2.  e2.~e2.  c2.~c4 f,8 g8 aes4    aes2 bes4   bes4  bes8 aes8 g8 f8
-  ees'4 f4 r8 g8   g4 aes4 r8 bes8   bes4 aes4 g4   bes4 aes8 g8 f8 ees8 
-  des2 g4   e2  f4    f2.~f2. 
 
-  r8 des,8^"pizz." f8 bes8 des8 r8
-  r8 c,8^"pizz." f8 aes8 c8 r8
-  r8 c,8^"pizz." ees8 g8 c8 r8
-  aes8^"pizz." f8 c'8 f,8 aes8 f8
+  g2 r8 
+  g,16 c e g fis8~fis2 r8  
+  a,16 d fis a g8~g2 r8 
+  c,16 e g c a8~a1 
 
-  bes,8^"pizz." des8 f8 bes8 des8 r8
-  r8 c8^"pizz." aes8 f8 c8 r8
-  r8 c8^"pizz." e8 g8 bes8 c8 e4 r4 r4 
+  c1 d1 e1 fis2. r4
 
-  bes'2.:32  aes2.:32  g2.:32  f2.:32   bes2.:32  aes2.:32  g2. r1.\fermata
+  r1 r1 r1 r1
+  c2. b4  g1 
+  r1 | r1 | fis1\< | g1\>~g2 r2\!    
 
-  r4 e4 r8 e8    aes4 c4 r8 aes8  c4 aes4 f4  e4. e8 f8 e8  e'4 e,4 f8. g16    
-  aes4 r8 aes8 bes8 aes8    aes4  f8 g8 aes4   aes2 bes4  bes4  bes8 aes8 g8 f8 
-  ees4 f4 g4   g4 aes4 r8 bes8   bes4 aes4 g4   bes4 aes8 g8 f8 ees8  
-  des2 g4   e2  f4    c2.~c4 r2
 
-  r2.  r2.  r2. r4
+  r1 r1 r1 r2. b4
+  a1 g1
+  fis1 f1 fis1 g2 e4 f4 
 
-  \override TextSpanner.bound-details.left.text = "rit."
-  aes8\startTextSpan g8 f8 ees8   des2.  e2.\stopTextSpan   f2.\fermata  f''2.\fermata
+  g2 r8 
+  g,16 c e g fis8~fis2 r8  
+  a,16 d fis a g8~g2 r8 
+  c,16 e g c a8~a1\> 
+
+  g2\! r8 
+  g,16 c e g fis8~fis2 r8  
+  a,16 d fis a g8~g2 r8 
+  c,16 e g c a8~a1\> 
+
+  g2\! r8 
+  g,16 c e g fis8~fis2 r8  
+  a,16 d fis a g8~g2 r8 
+  c,16 e g c a8~a1\>
+
+  g2\! r8 
+  g,16 c e g fis8~fis2 r8  
+  a,16 d fis a g8~g2 r8 
+  c,16 e g c a8~a1\>
+
+  c1\! d1 e1 fis2. r4 
+  c1 d1 e1 fis2. r4
 
 }
 
