@@ -32,8 +32,8 @@ melody = \relative c' {
 
   f2^"Outro"~f8 g8 a4 c2 bes4 c4 d4 c2 r8 c,8
   f2~f8 g8 a4 c2 d4 bes4. a8 g2 r8 c,8
-  f2~f8 g8 a4 c2 bes4 c4 d4 bes2 f4
-  c'2 a8 g8 f4 g4 a4 g2.   
+  f2~f8 g8 a4 c2 bes4 c4 d4 bes2 \acciaccatura g8 a4
+  c2 a8 g8 f4 g4 a4 bes2 a4 c2.  \acciaccatura g8 a2.\fermata   
   
 }
 
